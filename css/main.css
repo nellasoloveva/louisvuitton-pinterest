@@ -1,0 +1,1409 @@
+body{
+    background-color: #151817;
+    margin: 0px;
+ }
+@media screen and (min-width: 1024px) and (max-width: 1920px){
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.llogo{
+    height: 70px;
+    width: 70px;
+    background: linear-gradient(to right, #097bf5, #710875);
+    padding: 5px;
+}
+.txt{
+    color: white;
+    font-family: nunito;
+    margin: 0px 7px;
+}
+@font-face {
+font-family: "nunito";  
+src: url("../fonts/ofont.ru_Nunito.ttf") format("truetype"); 
+}
+@font-face {
+    font-family: "deal";  
+    src: url("../fonts/ofont.ru_Dealerplate.ttf") format("truetype"); 
+    }
+.menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 400px;
+}
+.right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ccall{
+    height: 29px;
+    width: 29px;
+}
+.lloupe{
+    height: 24px;
+    width: 24px;
+    margin-left: 30px;
+}
+.ccar{
+    margin-left: 30px;
+}
+.one{
+    background-image: url(../img/background.jpg);
+    background-size: 1170px 700px;
+    grid-row: 1/4;
+    height: 566px;
+    margin-right: 30px;
+    padding: 20px;
+    border-radius: 35px;
+}
+.two{
+    background-image: url(../img/Portrait-of-Gaston-Louis-Vuitton_1394128180934498.jpg);
+    margin-bottom: 30px;
+    height: 182px;
+    background-size: 182px 182px;
+    width: 182px;
+    border-radius: 35px;
+    font-family: deal;
+    color: white;
+    position: relative;
+}
+.three{
+    background-image: url(../img/NYPICHPDPICT000005761994.jpg);
+    margin-bottom: 30px;
+    height: 182px;
+    background-size: 182px 182px;
+    width: 182px;
+    border-radius: 35px;
+    font-family: deal;
+    color: white;
+}
+.four{
+    background-image: url(../img/ffhf.jpg);
+    height: 182px;
+    background-size: 182px 182px;
+    width: 182px;
+    border-radius: 35px;
+    font-family: deal;
+    color: white;
+}
+.container_one{
+    display: grid;
+    grid-template-columns: 6fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    margin: 30px 50px;
+}
+.h{
+    color: white;
+    font-family: deal;
+    position: relative;
+    font-size: 40px;
+    top: 310px;
+    left: 80px;
+}
+.opis{
+    color: white;
+    font-family: nunito;
+    position: relative;
+    top: 330px;
+    left: 80px;
+    width: 800px;
+}
+.but{
+    position: relative;
+    top: 350px;
+    left: 80px;
+}
+.button{
+    background: linear-gradient(to right, #097bf5, #710875);
+    color: white;
+    border-radius: 35px;
+    height: 50px;
+    width: 150px;
+    font-family: nunito;
+    font-size: 18px;
+    border: 0px;
+}
+.a{
+    position: relative;
+    top: 120px;
+    left: 20px;
+    text-shadow: 5px 5px 5px black;
+}
+.b{
+    position: relative;
+    top: 130px;
+    left: 20px;
+    text-shadow: 5px 5px 5px black;
+}
+.about{
+    font-family: deal;
+    color: white;
+    margin-left: 50px;
+    font-size: 40px;
+    margin-bottom: 40px;
+}
+.container_two{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 1fr 1fr 2fr 2fr;
+    margin: 0px 50px;
+    margin-bottom: 50px;
+}
+.second{
+    grid-column: 3/5;
+    grid-row: 1/3;
+}
+.first{
+    margin-right: 30px;
+    margin-bottom: 30px;
+    height: 200px;
+    width: 300px;
+    border-radius: 35px;
+    border: 1px solid white;
+    text-align: center;
+    
+}
+.big{
+    font-family: nunito;
+    color: white;
+    font-size: 38px;
+    font-weight: 800;
+    position: relative;
+    top: 60px;
+}
+.min{
+    font-family: nunito;
+    color: rgb(132, 131, 131);
+    position: relative;
+    top: 80px;
+}
+.second{
+    background-image: url(../img/148ae9f56c6330ce0f596b3c1f8c2e28.jpg);
+    margin-bottom: 30px;
+    border-radius: 35px;
+}
+.more{
+    font-family: nunito;
+    color: white;
+    font-size: 30px;
+    font-weight: 600;
+    position: relative;
+    left: 35px;
+    top: 30px;
+}
+.ll{
+    font-family: nunito;
+    color: white;
+    font-size: 15px;
+    position: relative;
+    left: 35px;
+    top: 220px;
+    width: 600px;
+    text-shadow: 2px 2px 5px black;
+}
+.button_two{
+    background: linear-gradient(to right, #097bf5, #710875);
+    color: white;
+    border-radius: 35px;
+    height: 50px;
+    width: 300px;
+    font-family: nunito;
+    font-size: 18px;
+    border: 0px;
+}
+.look{
+    position: relative;
+    left: 35px;
+    top: 230px;
+}
+.thrid{
+    grid-column: 1/5;
+    border: 1px solid white;
+    border-radius: 35px;
+    background-image: url(../img/tkan.png);
+    background-size: 1400px 700px;
+}
+.house{
+    font-family: deal;
+    font-size: 44px;
+    color: white;
+    position: relative;
+    left: 80px;
+    top: 180px;
+}
+.zan{
+    font-family: nunito;
+    color: rgb(132, 131, 131);
+    font-size: 18px;
+    width: 500px;
+    position: relative;
+    left: 80px;
+    top: 200px;
+}
+.ffour{
+    grid-column: 1/3;
+    border: 1px solid white;
+    border-radius: 35px;
+    background-image: url(../img/firstwhite.jpg);
+    background-size: 640px 431px;
+    margin-top: 30px;
+    margin-right: 30px;
+}
+.five{
+    grid-column: 3/5;
+    border: 1px solid white;
+    border-radius: 35px;
+    background-image: url(../img/letter.jpeg);
+    background-size: 685px 431px;
+    text-shadow: 2px 2px 5px black;
+    margin-top: 30px;
+}
+.history{
+    font-family: deal;
+    color: white;
+    font-size: 44px;
+    position: relative;
+    left: 80px;
+    top: 200px;
+    text-shadow: 2px 2px 5px black;
+}
+.nam{
+    font-family: nunito;
+    color: white;
+    font-size: 18px;
+    position: relative;
+    left: 80px;
+    top: 220px;
+    text-shadow: 2px 2px 5px black;
+}
+.ssl{
+    background: linear-gradient(to right, #097bf5, #710875);
+    color: white;
+    border-radius: 35px;
+    height: 50px;
+    width: 160px;
+    font-family: nunito;
+    font-size: 18px;
+    border: 0px;
+}
+.pere{
+    position: relative;
+    left: 80px;
+    top: 240px;
+}
+.o{
+    font-family: nunito;
+    color: white;
+    font-size: 24px;
+    margin-left: 50px;
+    font-weight: 800;
+}
+.otz{
+    display: flex;
+    justify-content: space-between;
+    margin: 40px 20px;
+}
+.star{
+    height: 20px;
+    width: 20px;
+    margin-right: 4px;
+}
+.hype{
+    display: flex;
+    margin-top: 35px;
+}
+.ava{
+    height: 55px;
+    width: 55px;
+    border-radius: 35px;
+}
+.block{
+    border: 1px solid white;
+    border-radius: 35px;
+    margin: 0px 20px;
+    width: 500px;
+    height: 250px;
+    padding: 0px 35px;
+}
+.people{
+    display: flex;
+    margin-top: 20px;
+}
+.texti{
+    font-family: nunito;
+    color: rgb(132, 131, 131);
+    margin-top: 15px;
+}
+.info{
+    margin-left: 15px;
+}
+.top{
+    font-family: nunito;
+    color: white;
+    font-weight: 700;
+}
+.bottom{
+    font-family: nunito;
+    color: rgb(132, 131, 131);
+}
+.collab{
+    font-family: nunito;
+    color: white;
+    font-size: 24px;
+    margin-left: 50px;
+    font-weight: 800;
+    margin-top: 50px;
+}
+.nike{
+    height: 120px;
+}
+.adidas{
+    height: 120px;
+}
+.apple{
+    height: 120px;
+}
+.tesla{
+    height: 120px;
+}
+.ferrari{
+    height: 120px;
+}
+.huawei{
+    height: 120px;
+    margin-left: 00px;
+}
+.instagram{
+    height: 120px;
+    margin-right: 100px;
+    margin-left: 200px;
+}
+.loreal{
+    height: 120px;
+    margin-left: 100px;
+}
+.ps{
+    height: 120px;
+    margin-left: 200px;
+}
+.str_one{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 50px;
+}
+.str_two{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 200px;
+    margin-bottom: 200px;
+}
+.footer{
+    background-color: #141414;
+    padding: 60px 50px;
+
+}
+.end{
+    display: flex;
+    justify-content: space-between;
+}
+.rrig{
+    display: flex;
+}
+.pod{
+    font-family: nunito;
+    color: rgb(132, 131, 131);
+    margin-top: 20px
+}
+.zag{
+    font-family: nunito;
+    color: white;
+    font-size: 25px;
+    font-weight: 600;
+}
+.stolb_two{
+    margin-left: 200px;
+}
+.prost{
+    font-family: nunito;
+    color: rgb(132, 131, 131);
+    margin-top: 20px;
+}
+.contact{
+    display: flex;
+    margin-top: 50px;
+}
+.icons{
+    display: flex;
+}
+.iinst{
+    width: 20px;
+    margin-right: 15px;
+}
+.twit{
+    width: 20px;
+    margin-right: 15px;
+}
+.face{
+    width: 20px;
+    margin-right: 15px;
+}
+.gog{
+    width: 20px;
+    margin-right: 100px;
+}
+.polity{
+    font-family: nunito;
+    color: rgb(132, 131, 131);
+    margin-right: 100px;
+}
+.year{
+    font-family: nunito;
+    color: rgb(132, 131, 131);
+}
+}
+@media screen and (min-width: 768px) and (max-width: 1024px){
+    .header{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 30px;
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+    .llogo{
+        height: 70px;
+        width: 70px;
+        background: linear-gradient(to right, #097bf5, #710875);
+        padding: 5px;
+    }
+    .txt{
+        color: white;
+        font-family: nunito;
+        margin: 0px 7px;
+    }
+    @font-face {
+    font-family: "nunito";  
+    src: url("../fonts/ofont.ru_Nunito.ttf") format("truetype"); 
+    }
+    @font-face {
+        font-family: "deal";  
+        src: url("../fonts/ofont.ru_Dealerplate.ttf") format("truetype"); 
+        }
+    .menu{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 200px;
+    }
+    .right{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .ccall{
+        height: 29px;
+        width: 29px;
+    }
+    .lloupe{
+        height: 24px;
+        width: 24px;
+        margin-left: 30px;
+    }
+    .ccar{
+        margin-left: 30px;
+    }
+    .one{
+        background-image: url(../img/background.jpg);
+        background-size: 1170px 700px;
+        grid-row: 1/4;
+        height: 566px;
+        margin-right: 30px;
+        padding: 20px;
+        border-radius: 35px;
+        width: 700px;
+    }
+    .two{
+        background-image: url(../img/Portrait-of-Gaston-Louis-Vuitton_1394128180934498.jpg);
+        margin-bottom: 30px;
+        height: 182px;
+        background-size: 182px 182px;
+        width: 182px;
+        border-radius: 35px;
+        font-family: deal;
+        color: white;
+        position: relative;
+    }
+    .three{
+        background-image: url(../img/NYPICHPDPICT000005761994.jpg);
+        margin-bottom: 30px;
+        height: 182px;
+        background-size: 182px 182px;
+        width: 182px;
+        border-radius: 35px;
+        font-family: deal;
+        color: white;
+    }
+    .four{
+        background-image: url(../img/ffhf.jpg);
+        height: 182px;
+        background-size: 182px 182px;
+        width: 182px;
+        border-radius: 35px;
+        font-family: deal;
+        color: white;
+    }
+    .container_one{
+        display: grid;
+        grid-template-columns: 6fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        margin: 30px 50px;
+    }
+    .h{
+        color: white;
+        font-family: deal;
+        position: relative;
+        font-size: 40px;
+        top: 310px;
+        left: 40px;
+    }
+    .opis{
+        color: white;
+        font-family: nunito;
+        position: relative;
+        top: 330px;
+        left: 40px;
+        width: 600px;
+    }
+    .but{
+        position: relative;
+        top: 350px;
+        left: 40px;
+    }
+    .button{
+        background: linear-gradient(to right, #097bf5, #710875);
+        color: white;
+        border-radius: 35px;
+        height: 50px;
+        width: 150px;
+        font-family: nunito;
+        font-size: 18px;
+        border: 0px;
+    }
+    .a{
+        position: relative;
+        top: 120px;
+        left: 20px;
+        text-shadow: 5px 5px 5px black;
+    }
+    .b{
+        position: relative;
+        top: 130px;
+        left: 20px;
+        text-shadow: 5px 5px 5px black;
+    }
+    .about{
+        font-family: deal;
+        color: white;
+        margin-left: 50px;
+        font-size: 40px;
+        margin-bottom: 40px;
+    }
+    .container_two{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: 1fr 1fr 2fr 2fr;
+        margin: 0px 50px;
+        margin-bottom: 50px;
+    }
+    .second{
+        grid-column: 3/5;
+        grid-row: 1/3;
+        height: 430px;
+    }
+    .first{
+        margin-right: 30px;
+        margin-bottom: 30px;
+        height: 200px;
+        width: 200px;
+        border-radius: 35px;
+        border: 1px solid white;
+        text-align: center;
+        
+    }
+    .big{
+        font-family: nunito;
+        color: white;
+        font-size: 38px;
+        font-weight: 800;
+        position: relative;
+        top: 60px;
+    }
+    .min{
+        font-family: nunito;
+        color: rgb(132, 131, 131);
+        position: relative;
+        top: 80px;
+    }
+    .second{
+        background-image: url(../img/148ae9f56c6330ce0f596b3c1f8c2e28.jpg);
+        margin-bottom: 30px;
+        border-radius: 35px;
+        background-size: 480px 430px;
+    }
+    .more{
+        font-family: nunito;
+        color: white;
+        font-size: 28px;
+        font-weight: 600;
+        position: relative;
+        left: 35px;
+        top: 30px;
+    }
+    .ll{
+        font-family: nunito;
+        color: white;
+        font-size: 15px;
+        position: relative;
+        left: 35px;
+        top: 160px;
+        width: 400px;
+        text-shadow: 2px 2px 5px black;
+    }
+    .button_two{
+        background: linear-gradient(to right, #097bf5, #710875);
+        color: white;
+        border-radius: 35px;
+        height: 40px;
+        width: 300px;
+        font-family: nunito;
+        font-size: 15px;
+        border: 0px;
+    }
+    .look{
+        position: relative;
+        left: 35px;
+        top: 180px;
+    }
+    .thrid{
+        grid-column: 1/5;
+        border: 1px solid white;
+        border-radius: 35px;
+        background-image: url(../img/tkan.png);
+        background-size: 1000px 500px;
+    }
+    .house{
+        font-family: deal;
+        font-size: 44px;
+        color: white;
+        position: relative;
+        left: 80px;
+        top: 180px;
+    }
+    .zan{
+        font-family: nunito;
+        color: rgb(132, 131, 131);
+        font-size: 18px;
+        width: 500px;
+        position: relative;
+        left: 80px;
+        top: 200px;
+    }
+    .ffour{
+        grid-column: 1/3;
+        border: 1px solid white;
+        border-radius: 35px;
+        background-image: url(../img/firstwhite.jpg);
+        background-size: 440px 400px;
+        margin-top: 30px;
+        margin-right: 30px;
+    }
+    .five{
+        grid-column: 3/5;
+        border: 1px solid white;
+        border-radius: 35px;
+        background-image: url(../img/letter.jpeg);
+        background-size: 470px 400px;
+        text-shadow: 2px 2px 5px black;
+        margin-top: 30px;
+    }
+    .history{
+        font-family: deal;
+        color: white;
+        font-size: 37px;
+        position: relative;
+        left: 40px;
+        top: 220px;
+        text-shadow: 2px 2px 5px black;
+    }
+    .nam{
+        font-family: nunito;
+        color: white;
+        font-size: 18px;
+        position: relative;
+        left: 40px;
+        top: 220px;
+        text-shadow: 2px 2px 5px black;
+    }
+    .ssl{
+        background: linear-gradient(to right, #097bf5, #710875);
+        color: white;
+        border-radius: 35px;
+        height: 50px;
+        width: 160px;
+        font-family: nunito;
+        font-size: 18px;
+        border: 0px;
+    }
+    .pere{
+        position: relative;
+        left: 40px;
+        top: 270px;
+    }
+    .o{
+        font-family: nunito;
+        color: white;
+        font-size: 24px;
+        margin-left: 50px;
+        font-weight: 800;
+    }
+    .otz{
+        display: flex;
+        justify-content: space-between;
+        margin: 40px 20px;
+    }
+    .star{
+        height: 20px;
+        width: 20px;
+        margin-right: 4px;
+    }
+    .hype{
+        display: flex;
+        margin-top: 35px;
+    }
+    .ava{
+        height: 55px;
+        width: 55px;
+        border-radius: 35px;
+    }
+    .block{
+        border: 1px solid white;
+        border-radius: 35px;
+        margin: 0px 20px;
+        width: 500px;
+        height: 300px;
+        padding: 0px 35px;
+    }
+    .people{
+        display: flex;
+        margin-top: 20px;
+    }
+    .texti{
+        font-family: nunito;
+        color: rgb(132, 131, 131);
+        margin-top: 15px;
+    }
+    .info{
+        margin-left: 15px;
+    }
+    .top{
+        font-family: nunito;
+        color: white;
+        font-weight: 700;
+    }
+    .bottom{
+        font-family: nunito;
+        color: rgb(132, 131, 131);
+    }
+    .collab{
+        font-family: nunito;
+        color: white;
+        font-size: 24px;
+        margin-left: 50px;
+        font-weight: 800;
+        margin-top: 50px;
+    }
+    .nike{
+        height: 120px;
+    }
+    .adidas{
+        height: 120px;
+    }
+    .apple{
+        height: 120px;
+    }
+    .tesla{
+        height: 120px;
+    }
+    .ferrari{
+        height: 120px;
+    }
+    .huawei{
+        height: 120px;
+        margin-right: 50px;
+    }
+    .instagram{
+        height: 120px;
+        margin-right: 50px;
+        margin-left: 00px;
+    }
+    .loreal{
+        height: 120px;
+        margin-left: 50px;
+    }
+    .ps{
+        height: 120px;
+        margin-left: 50px;
+    }
+    .str_one{
+        display: flex;
+        justify-content: space-between;
+        margin: 0px 50px;
+    }
+    .str_two{
+        display: flex;
+        justify-content: center;
+        margin: 50px 0px;
+        margin-bottom: 200px;
+    }
+    .footer{
+        background-color: #141414;
+        padding: 60px 50px;
+    
+    }
+    .end{
+        display: flex;
+        justify-content: space-between;
+    }
+    .rrig{
+        display: flex;
+    }
+    .pod{
+        font-family: nunito;
+        color: rgb(132, 131, 131);
+        margin-top: 20px
+    }
+    .zag{
+        font-family: nunito;
+        color: white;
+        font-size: 25px;
+        font-weight: 600;
+    }
+    .stolb_two{
+        margin-left: 100px;
+    }
+    .prost{
+        font-family: nunito;
+        color: rgb(132, 131, 131);
+        margin-top: 20px;
+    }
+    .contact{
+        display: flex;
+        margin-top: 50px;
+    }
+    .icons{
+        display: flex;
+    }
+    .iinst{
+        width: 20px;
+        margin-right: 15px;
+    }
+    .twit{
+        width: 20px;
+        margin-right: 15px;
+    }
+    .face{
+        width: 20px;
+        margin-right: 15px;
+    }
+    .gog{
+        width: 20px;
+        margin-right: 100px;
+    }
+    .polity{
+        font-family: nunito;
+        color: rgb(132, 131, 131);
+        margin-right: 100px;
+    }
+    .year{
+        font-family: nunito;
+        color: rgb(132, 131, 131);
+    }
+}
+@media screen and (min-width: 480px) and (max-width: 768px){
+    .header{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 30px;
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+    .llogo{
+        height: 40px;
+        width: 40px;
+        background: linear-gradient(to right, #097bf5, #710875);
+        padding: 5px;
+    }
+    .txt{
+        color: white;
+        font-family: nunito;
+        margin: 0px 7px;
+    }
+    @font-face {
+    font-family: "nunito";  
+    src: url("../fonts/ofont.ru_Nunito.ttf") format("truetype"); 
+    }
+    @font-face {
+        font-family: "deal";  
+        src: url("../fonts/ofont.ru_Dealerplate.ttf") format("truetype"); 
+        }
+    .menu{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 30px;
+    }
+    .right{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .ccall{
+        height: 29px;
+        width: 29px;
+    }
+    .lloupe{
+        height: 24px;
+        width: 24px;
+        margin-left: 10px;
+    }
+    .ccar{
+        margin-left: 10px;
+    }
+    .one{
+        background-image: url(../img/background.jpg);
+        background-size: 1000px 700px;
+        grid-column: 1/4;
+        height: 566px;
+        margin-right: 30px;
+        padding: 20px;
+        border-radius: 35px;
+        width: 600px;
+        margin-bottom: 30px;
+    }
+    .two{
+        background-image: url(../img/Portrait-of-Gaston-Louis-Vuitton_1394128180934498.jpg);
+        margin-bottom: 30px;
+        height: 182px;
+        background-size: 182px 182px;
+        width: 182px;
+        border-radius: 35px;
+        font-family: deal;
+        color: white;
+        position: relative;
+    }
+    .three{
+        background-image: url(../img/NYPICHPDPICT000005761994.jpg);
+        margin-bottom: 30px;
+        height: 182px;
+        background-size: 182px 182px;
+        width: 182px;
+        border-radius: 35px;
+        font-family: deal;
+        color: white;
+    }
+    .four{
+        background-image: url(../img/ffhf.jpg);
+        height: 182px;
+        background-size: 182px 182px;
+        width: 182px;
+        border-radius: 35px;
+        font-family: deal;
+        color: white;
+    }
+    .container_one{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 2fr 1fr;
+        margin: 30px 50px;
+    }
+    .h{
+        color: white;
+        font-family: deal;
+        position: relative;
+        font-size: 40px;
+        top: 310px;
+        left: 20px;
+    }
+    .opis{
+        color: white;
+        font-family: nunito;
+        position: relative;
+        top: 330px;
+        left: 20px;
+        width: 500px;
+    }
+    .but{
+        position: relative;
+        top: 350px;
+        left: 20px;
+    }
+    .button{
+        background: linear-gradient(to right, #097bf5, #710875);
+        color: white;
+        border-radius: 35px;
+        height: 50px;
+        width: 150px;
+        font-family: nunito;
+        font-size: 18px;
+        border: 0px;
+    }
+    .a{
+        position: relative;
+        top: 120px;
+        left: 20px;
+        text-shadow: 5px 5px 5px black;
+    }
+    .b{
+        position: relative;
+        top: 130px;
+        left: 20px;
+        text-shadow: 5px 5px 5px black;
+    }
+    .about{
+        font-family: deal;
+        color: white;
+        margin-left: 50px;
+        font-size: 40px;
+        margin-bottom: 40px;
+    }
+    .container_two{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 2fr 2fr 2fr 2fr;
+        margin: 0px 50px;
+        margin-bottom: 50px;
+    }
+    .second{
+        grid-column: 1/3;
+    }
+    .first{
+        margin-right: 30px;
+        margin-bottom: 30px;
+        height: 200px;
+        width: 310px;
+        border-radius: 35px;
+        border: 1px solid white;
+        text-align: center;
+        
+    }
+    .big{
+        font-family: nunito;
+        color: white;
+        font-size: 38px;
+        font-weight: 800;
+        position: relative;
+        top: 60px;
+    }
+    .min{
+        font-family: nunito;
+        color: rgb(132, 131, 131);
+        position: relative;
+        top: 80px;
+    }
+    .second{
+        background-image: url(../img/148ae9f56c6330ce0f596b3c1f8c2e28.jpg);
+        margin-bottom: 30px;
+        border-radius: 35px;
+        background-size: 650px;
+        width: 650px;
+    }
+    .more{
+        font-family: nunito;
+        color: white;
+        font-size: 30px;
+        font-weight: 600;
+        position: relative;
+        left: 35px;
+        top: 30px;
+    }
+    .ll{
+        font-family: nunito;
+        color: white;
+        font-size: 15px;
+        position: relative;
+        left: 35px;
+        top: 220px;
+        width: 600px;
+        text-shadow: 2px 2px 5px black;
+    }
+    .button_two{
+        background: linear-gradient(to right, #097bf5, #710875);
+        color: white;
+        border-radius: 35px;
+        height: 50px;
+        width: 300px;
+        font-family: nunito;
+        font-size: 18px;
+        border: 0px;
+    }
+    .look{
+        position: relative;
+        left: 35px;
+        top: 230px;
+    }
+    .thrid{
+        grid-column: 1/3;
+        border: 1px solid white;
+        border-radius: 35px;
+        background-image: url(../img/tkan.png);
+        background-size: 650px 460px;
+        width: 650px;
+    }
+    .house{
+        font-family: deal;
+        font-size: 44px;
+        color: white;
+        position: relative;
+        left: 40px;
+        top: 180px;
+    }
+    .zan{
+        font-family: nunito;
+        color: rgb(132, 131, 131);
+        font-size: 18px;
+        width: 400px;
+        position: relative;
+        left: 40px;
+        top: 200px;
+    }
+    .ffour{
+        grid-column: 1/3;
+        border: 1px solid white;
+        border-radius: 35px;
+        background-image: url(../img/firstwhite.jpg);
+        background-size: 640px 431px;
+        margin-top: 30px;
+        margin-right: 30px;
+    }
+    .five{
+        grid-column: 1/3;
+        border: 1px solid white;
+        border-radius: 35px;
+        background-image: url(../img/letter.jpeg);
+        background-size: 685px 431px;
+        text-shadow: 2px 2px 5px black;
+        margin-top: 30px;
+        width: 650px;
+    }
+    .history{
+        font-family: deal;
+        color: white;
+        font-size: 44px;
+        position: relative;
+        left: 80px;
+        top: 200px;
+        text-shadow: 2px 2px 5px black;
+    }
+    .nam{
+        font-family: nunito;
+        color: white;
+        font-size: 18px;
+        position: relative;
+        left: 80px;
+        top: 220px;
+        text-shadow: 2px 2px 5px black;
+    }
+    .ssl{
+        background: linear-gradient(to right, #097bf5, #710875);
+        color: white;
+        border-radius: 35px;
+        height: 50px;
+        width: 160px;
+        font-family: nunito;
+        font-size: 18px;
+        border: 0px;
+    }
+    .pere{
+        position: relative;
+        left: 80px;
+        top: 240px;
+    }
+    .o{
+        font-family: nunito;
+        color: white;
+        font-size: 24px;
+        margin-left: 50px;
+        font-weight: 800;
+    }
+    .otz{
+       
+        margin: 40px 20px;
+    }
+    .star{
+        height: 20px;
+        width: 20px;
+        margin-right: 4px;
+    }
+    .hype{
+        display: flex;
+        margin-top: 35px;
+    }
+    .ava{
+        height: 55px;
+        width: 55px;
+        border-radius: 35px;
+    }
+    .block{
+        border: 1px solid white;
+        border-radius: 35px;
+        margin: 30px 20px;
+        width: 600px;
+        height: 250px;
+        padding: 0px 35px;
+    }
+    .people{
+        display: flex;
+        margin-top: 20px;
+    }
+    .texti{
+        font-family: nunito;
+        color: rgb(132, 131, 131);
+        margin-top: 15px;
+    }
+    .info{
+        margin-left: 15px;
+    }
+    .top{
+        font-family: nunito;
+        color: white;
+        font-weight: 700;
+    }
+    .bottom{
+        font-family: nunito;
+        color: rgb(132, 131, 131);
+    }
+    .collab{
+        font-family: nunito;
+        color: white;
+        font-size: 24px;
+        margin-left: 50px;
+        font-weight: 800;
+        margin-top: 50px;
+    }
+    .nike{
+        width: 600px;
+        margin-left: 80px;
+    }
+    .adidas{
+        width: 600px;
+        margin-left: 80px;
+    }
+    .apple{
+        width: 600px;
+        margin-left: 80px;
+        margin-bottom: 60px;
+    }
+    .tesla{
+        width: 600px;
+        margin-left: 100px;
+    }
+    .ferrari{
+        width: 600px;
+        margin-left: 80px;
+    }
+    .huawei{
+        width: 600px;
+        margin-left: 80px;
+    }
+    .instagram{
+        width: 600px;
+        margin-left: 80px;
+        margin-bottom: 100px;
+    }
+    .loreal{
+        width: 600px;
+        margin-left: 80px;
+    }
+    .ps{
+        width: 600px;
+        margin-left: 80px;
+    }
+    .str_one{
+        
+    }
+    .str_two{
+        
+       
+    }
+    .footer{
+        background-color: #141414;
+        padding: 60px 50px;
+    
+    }
+    .leef{
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 50px;
+    }
+    .rrig{
+        display: flex;
+    }
+    .pod{
+        font-family: nunito;
+        color: rgb(132, 131, 131);
+        margin-top: 20px
+    }
+    .zag{
+        font-family: nunito;
+        color: white;
+        font-size: 25px;
+        font-weight: 600;
+    }
+    .stolb_two{
+        margin-left: 200px;
+    }
+    .prost{
+        font-family: nunito;
+        color: rgb(132, 131, 131);
+        margin-top: 20px;
+    }
+    .contact{
+        display: flex;
+        margin-top: 50px;
+    }
+    .icons{
+        display: flex;
+    }
+    .iinst{
+        width: 20px;
+        margin-right: 15px;
+    }
+    .twit{
+        width: 20px;
+        margin-right: 15px;
+    }
+    .face{
+        width: 20px;
+        margin-right: 15px;
+    }
+    .gog{
+        width: 20px;
+        margin-right: 100px;
+    }
+    .polity{
+        font-family: nunito;
+        color: rgb(132, 131, 131);
+        margin-right: 100px;
+    }
+    .year{
+        font-family: nunito;
+        color: rgb(132, 131, 131);
+    }
+}
